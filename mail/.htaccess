@@ -1,0 +1,26 @@
+# Protect sensitive files
+<Files "config.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "contact.log">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Prevent directory listing
+Options -Indexes
+
+# Force HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Protect against XSS attacks
+<IfModule mod_headers.c>
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Content-Security-Policy "default-src 'self' https://www.google.com https://www.gstatic.com; script-src 'self' https://www.google.com https://www.gstatic.com; frame-src 'self' https://www.google.com;"
+</IfModule> 

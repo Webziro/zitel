@@ -1,0 +1,281 @@
+[2025-06-07 19:14:06] Invalid request method: GET
+[2025-06-07 19:14:53] Invalid request method: GET
+[2025-06-07 19:17:27] Request Method: GET
+[2025-06-07 19:17:27] POST Data: Array
+(
+)
+
+[2025-06-07 19:17:27] Invalid request method: GET
+[2025-06-07 19:18:38] Request Method: GET
+[2025-06-07 19:18:38] POST Data: Array
+(
+)
+
+[2025-06-07 19:18:38] Invalid request method: GET
+[2025-06-07 19:20:08] Request Method: GET
+[2025-06-07 19:20:08] POST Data: Array
+(
+)
+
+[2025-06-07 19:20:08] Invalid request method: GET
+[2025-06-07 20:05:20] Request Method: GET
+[2025-06-07 20:05:20] POST Data: Array
+(
+)
+
+[2025-06-07 20:05:20] Invalid request method: GET
+[2025-06-07 20:05:50] Request Method: GET
+[2025-06-07 20:05:50] POST Data: Array
+(
+)
+
+[2025-06-07 20:05:50] Invalid request method: GET
+[2025-06-07 20:07:24] Request Method: GET
+[2025-06-07 20:07:24] POST Data: Array
+(
+)
+
+[2025-06-07 20:07:24] Invalid request method: GET
+[2025-06-07 20:10:06] Request Method: POST
+[2025-06-07 20:10:06] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Test Message
+    [message] => aa
+)
+
+[2025-06-07 20:10:06] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-07 20:10:06] Failed to send email. Error: Array
+(
+    [type] => 2
+    [message] => mail(): Failed to connect to mailserver at &quot;smtp.gmail.com&quot; port 587, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+    [file] => C:\xampp\htdocs\web\zitel\mail\contact.php
+    [line] => 92
+)
+
+[2025-06-07 20:10:06] Exception while sending email: Failed to send email: mail(): Failed to connect to mailserver at &quot;smtp.gmail.com&quot; port 587, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+[2025-06-07 20:12:32] Request Method: POST
+[2025-06-07 20:12:32] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Service Unavailable
+    [message] => sss
+)
+
+[2025-06-07 20:12:32] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-07 20:12:35] Failed to send email. Error: Array
+(
+    [type] => 2
+    [message] => mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+    [file] => C:\xampp\htdocs\web\zitel\mail\contact.php
+    [line] => 92
+)
+
+[2025-06-07 20:12:35] Exception while sending email: Failed to send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+[2025-06-07 20:17:16] Request Method: POST
+[2025-06-07 20:17:16] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Service Unavailable
+    [message] => asw
+)
+
+[2025-06-07 20:17:16] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-07 20:17:17] Failed to send email. Error: Array
+(
+    [type] => 2
+    [message] => mail(): Failed to connect to mailserver at &quot;smtp.gmail.com&quot; port 587, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+    [file] => C:\xampp\htdocs\web\zitel\mail\contact.php
+    [line] => 92
+)
+
+[2025-06-07 20:17:17] Exception while sending email: Failed to send email: mail(): Failed to connect to mailserver at &quot;smtp.gmail.com&quot; port 587, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+[2025-06-07 20:21:14] Request Method: POST
+[2025-06-07 20:21:14] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Test Message2
+    [message] => ss
+)
+
+[2025-06-07 20:21:14] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-07 20:21:15] Failed to send email. Error: Array
+(
+    [type] => 2
+    [message] => mail(): Failed to connect to mailserver at &quot;smtp.gmail.com&quot; port 587, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+    [file] => C:\xampp\htdocs\web\zitel\mail\contact.php
+    [line] => 94
+)
+
+[2025-06-07 20:21:15] Exception while sending email: Failed to send email: mail(): Failed to connect to mailserver at &quot;smtp.gmail.com&quot; port 587, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+[2025-06-07 20:24:15] Request Method: POST
+[2025-06-07 20:24:15] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Service Unavailable
+    [message] => Aaaa
+)
+
+[2025-06-07 20:24:15] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-07 20:24:17] Failed to send email. Error: Array
+(
+    [type] => 2
+    [message] => mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+    [file] => C:\xampp\htdocs\web\zitel\mail\contact.php
+    [line] => 92
+)
+
+[2025-06-07 20:24:17] Exception while sending email: Failed to send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+[2025-06-07 20:26:27] Request Method: POST
+[2025-06-07 20:26:27] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Test Message
+    [message] => sss
+)
+
+[2025-06-07 20:26:27] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-07 20:29:17] Request Method: POST
+[2025-06-07 20:29:17] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Test Message
+    [message] => sss
+)
+
+[2025-06-07 20:29:17] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-07 20:29:17] Server response: 421 Service not available
+
+[2025-06-07 20:29:17] EHLO response: 
+[2025-06-07 20:29:17] STARTTLS response: 
+[2025-06-07 20:29:18] EHLO after TLS response: 
+[2025-06-07 20:29:18] AUTH response: 
+[2025-06-07 20:29:18] Username response: 
+[2025-06-07 20:29:18] Password response: 
+[2025-06-07 20:29:18] MAIL FROM response: 
+[2025-06-07 20:29:18] RCPT TO response: 
+[2025-06-07 20:29:18] DATA response: 
+[2025-06-07 20:29:18] Email content response: 
+[2025-06-07 20:29:18] Email sent successfully to: stanleyamaziro@gmail.com
+[2025-06-07 20:29:28] Request Method: POST
+[2025-06-07 20:29:28] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Service Unavailable
+    [message] => aaa
+)
+
+[2025-06-07 20:29:28] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-07 20:29:28] Server response: 421 Service not available
+
+[2025-06-07 20:29:28] EHLO response: 
+[2025-06-07 20:29:28] STARTTLS response: 
+[2025-06-07 20:29:28] EHLO after TLS response: 
+[2025-06-07 20:29:28] AUTH response: 
+[2025-06-07 20:29:28] Username response: 
+[2025-06-07 20:29:28] Password response: 
+[2025-06-07 20:29:28] MAIL FROM response: 
+[2025-06-07 20:29:28] RCPT TO response: 
+[2025-06-07 20:29:28] DATA response: 
+[2025-06-07 20:29:28] Email content response: 
+[2025-06-07 20:29:28] Email sent successfully to: stanleyamaziro@gmail.com
+[2025-06-07 20:31:42] Request Method: POST
+[2025-06-07 20:31:42] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Service Unavailable
+    [message] => ass
+)
+
+[2025-06-07 20:31:42] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-07 20:31:42] Received: 421 Service not available
+[2025-06-07 20:31:42] SMTP Error: Unexpected response code: 421, expected: 220
+[2025-06-07 20:31:42] Exception while sending email: Failed to send email
+[2025-06-07 20:34:41] Request Method: POST
+[2025-06-07 20:34:41] POST Data: Array
+(
+    [name] => Revealing Only Truths
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Test Message33
+    [message] => This is a test mail
+)
+
+[2025-06-07 20:34:41] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-07 20:35:12] Received: 
+[2025-06-07 20:35:12] SMTP Error: Unexpected response code: 0, expected: 220
+[2025-06-07 20:35:12] Exception while sending email: Failed to send email
+[2025-06-07 20:37:10] Request Method: POST
+[2025-06-07 20:37:10] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Service Unavailable
+    [message] => This is a test.....
+)
+
+[2025-06-07 20:37:10] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-07 20:37:40] Failed to connect to SMTP server:  (0)
+[2025-06-07 20:37:40] Exception while sending email: Failed to send email
+[2025-06-07 20:40:00] Request Method: POST
+[2025-06-07 20:40:00] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Test Message
+    [message] => Let Test
+)
+
+[2025-06-07 20:40:00] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-07 20:40:00] Exception while sending email: Failed to send email
+[2025-06-07 20:40:10] Request Method: GET
+[2025-06-07 20:40:10] POST Data: Array
+(
+)
+
+[2025-06-07 20:40:10] Invalid request method: GET
+[2025-06-07 20:59:38] Request Method: POST
+[2025-06-07 20:59:38] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Test Message
+    [message] => th
+)
+
+[2025-06-07 20:59:38] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-07 21:03:14] Request Method: POST
+[2025-06-07 21:03:14] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Test Message
+    [message] => th
+)
+
+[2025-06-07 21:03:14] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-08 05:15:35] Request Method: GET
+[2025-06-08 05:15:35] POST Data: Array
+(
+)
+
+[2025-06-08 05:15:35] Invalid request method: GET
+[2025-06-08 05:19:13] Request Method: POST
+[2025-06-08 05:19:13] POST Data: Array
+(
+    [name] => Stanley Amaziro
+    [email] => stanleyamaziro@gmail.com
+    [subject] => Test Message
+    [message] => th
+)
+
+[2025-06-08 05:19:13] Attempting to send email to: stanleyamaziro@gmail.com
+[2025-06-08 05:19:34] Exception while sending email: Failed to send email

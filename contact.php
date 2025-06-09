@@ -45,7 +45,7 @@
             <div class="container">
                 <div class="section-header">
                     <p>Get In Touch</p>
-                    <h2>Get In Touch For Any Query</h2>
+                    <h2>Get In Touch For Any Information</h2>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-md-5">
@@ -110,6 +110,26 @@
         </div>
         <!-- Contact End -->
 
+        <!-- Find Us on Map Start -->
+        <div class="map-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Zitel Financials Location</p>
+                    <h2>Find Us on Map</h2>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2897.1234567890123!2d-80.4922!3d43.4516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf6ad02edccff%3A0xdd9df3e0b9c2701e!2s741%20King%20St%20W%2C%20Kitchener%2C%20ON%20N2G%200E9!5e0!3m2!1sen!2sca!4v1647881234567!5m2!1sen!2sca" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <!-- Find Us on Map End -->
 
         <!-- Footer Start -->
             <?php

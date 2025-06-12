@@ -56,3 +56,45 @@
                 </div>
             </div>
         </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookie-policy.js"></script>
+
+        <!-- Initialize Owl Carousel -->
+        <script>
+            $(document).ready(function(){
+                $('.testimonials-carousel').owlCarousel({
+                    loop: true,
+                    margin: 30,
+                    nav: true,
+                    dots: false,
+                    autoplay: true,
+                    smartSpeed: 1000,
+                    responsive: {
+                        0:{
+                            items:1
+                        },
+                        768:{
+                            items:2
+                        },
+                        992:{
+                            items:3
+                        }
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

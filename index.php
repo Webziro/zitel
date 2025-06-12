@@ -146,31 +146,31 @@
             <div class="hero-slider">
                 <div class="hero-slide" style="background-image: url('img/carousel-1.jpg');">
                     <div class="hero-content">
-                        <h1>Focus on your Growth</h1>
-                        <p>Let's Zitel handle your <span>BOOKKEEPING</span></p>
+                        <h1>A Bookkeeping that works as <br> hard as you do!</h1>
+                        <p>Let's handle your <span>BOOKKEEPING</span></p>
                         <div class="hero-buttons">
-                            <a href="#" class="btn btn-primary">Book Appointment</a>
-                            <a href="#" class="btn btn-secondary">Send a Mail</a>
+                            <a href="https://cal.com/zitel/consultation" class="btn btn-primary" target="_blank">Book Appointment</a>
+                            <a href="contact" class="btn btn-secondary">Send a Mail</a>
                         </div>
                     </div>
                 </div>
                 <div class="hero-slide" style="background-image: url('img/carousel-2.jpg');">
                     <div class="hero-content">
-                        <h1>Focus on your Growth</h1>
-                        <p>Let's handle your <span>TAX PREPARATION & FILLING</span></p>
+                        <h1>A Bookkeeping that works as <br> hard as you do!</h1>
+                        <p>Let's handle your <span>TAX PREPARATION & FILING</span></p>
                         <div class="hero-buttons">
-                            <a href="#" class="btn btn-primary">Book Appointment</a>
-                            <a href="#contact" class="btn btn-secondary">Send a Mail</a>
+                        <a href="https://cal.com/zitel/consultation" class="btn btn-primary" target="_blank">Book Appointment</a>
+                        <a href="contact" class="btn btn-secondary">Send a Mail</a>
                         </div>
                     </div>
                 </div>
                 <div class="hero-slide" style="background-image: url('img/carousel-3.jpg');">
                     <div class="hero-content">
-                        <h1>Focus on your Growth</h1>
+                        <h1>A Bookkeeping that works as <br> hard as you do!</h1>
                         <p>Let's handle your <span>PAYROLL</span></p>
                         <div class="hero-buttons">
-                            <a href="#" class="btn btn-primary">Book Appointment</a>
-                            <a href="#" class="btn btn-secondary">Send a Mail</a>
+                        <a href="https://cal.com/zitel/consultation" class="btn btn-primary" target="_blank">Book Appointment</a>
+                        <a href="contact" class="btn btn-secondary">Send a Mail</a>
                         </div>
                     </div>
                 </div>
@@ -251,14 +251,14 @@
                         <div class="about-text">
                             <p>
                                 Recognizing the unique challenges small businesses face, whether you're just starting out or scaling up, 
-                                we set out to deliver bookkeeping and accounting services that are not only accurate and compliant, 
+                                we set out to deliver bookkeeping and accounting services that are not only accurate and compliant, but also flexible, approachable, and tailored to each client's needs.
                                 
                             </p>
                             <p>
-                                but also flexible, approachable, and tailored to each client's needs. Our team brings deep industry experience, 
+                                 Our team brings deep industry experience, 
                                 a commitment to integrity, and a passion for helping business owners make informed, confident decisions....
                             </p>
-                            <a class="btn" href="about.php">Learn More +</a>
+                            <a class="btn" href="about">Learn More +</a>
                         </div>
                     </div>
                 </div>
@@ -271,8 +271,8 @@
         <div class="service">
             <div class="container">
                 <div class="section-header">
-                    <p>Zitel Consulting Services</p>
-                    <h2>Our Consulting Services</h2>
+                    <p>We are competents</p>
+                    <h2>Our Services</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
@@ -360,13 +360,13 @@
                             <h2>Why Choose Us?</h2>
                         </div>
                         <p>Zitel Financials Inc. was founded with one mission in mind: to provide small 
-                            and mid-sized businesses with the reliable, personalized financial support 
-                            they need to grow with confidence.
+                            and mid-sized businesses with the reliable, personalized financial services 
+                            they need to grow and upscale with confidence.
                         </p>
                         <div class="row counters">
-                            <div class="col-6"><i class="fa fa-users"></i><div class="counters-text"><h2 data-toggle="counter-up">200</h2><p>Our Clients</p></div></div>
-                            <div class="col-6"><i class="fa fa-check"></i><div class="counters-text"><h2 data-toggle="counter-up">300</h2><p>Completed Projects</p></div></div>
-                            <div class="col-6"><i class="fa fa-running"></i><div class="counters-text"><h2 data-toggle="counter-up">400</h2><p>Running Projects</p></div></div>
+                            <div class="col-6"><i class="fa fa-users"></i><div class="counters-text"><h2 data-toggle="counter-up">90</h2>%<p>Team's Experience</p></div></div>
+                            <div class="col-6"><i class="fa fa-check"></i><div class="counters-text"><h2 data-toggle="counter-up">10</h2><p>Number of Team</p></div></div>
+                            <div class="col-6"><i class="fa fa-running"></i><div class="counters-text"><h2 data-toggle="counter-up">14</h2><p>Team's Running Projects</p></div></div>
                         </div>
                     </div>
                 </div>
@@ -378,43 +378,52 @@
         <!-- Testimonial Start -->
         <div class="testimonial">
             <div class="container">
-                <div class="section-header">
+                <div class="section-header text-center">
                     <p>What Clients say about us</p>
                     <h2>Our customers are satisfied with our services</h2>
                 </div>
                 <div class="owl-carousel testimonials-carousel">
                     <div class="testimonial-item">
-                        <img src="img/testimonial-1.jpg" alt="Image">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac consequat
-                        </p>
-                        <h2>Client Name</h2>
-                        <h3>Profession</h3>
+                        <div class="testimonial-img">
+                            <!-- <img src="img/testimonial-1.jpg" alt="Image"> -->
+
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                I was on the verge of upscalling my bussiness, hence needed a reputable organization to fill
+                                my taxes correctly, Zitel Finacials did a great job. I will galdly recommend them.
+                            </p>
+                            <h2>Joy Miles</h2>
+                            <h3>Business Owner</h3>
+                        </div>
                     </div>
                     <div class="testimonial-item">
-                        <img src="img/testimonial-2.jpg" alt="Image">
-                        <p>
-                            Phasellus pellentesque tempus pretium. Quisque in enim sit amet purus venenatis porttitor sed non velit. Vivamus vehicula finibus
-                        </p>
-                        <h2>Client Name</h2>
-                        <h3>Profession</h3>
+                        <div class="testimonial-img">
+                             <!-- <img src="img/testimonial-2.jpg" alt="Image"> -->
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Zitel Financials has help upped my business returns by effective documentation and financial reporting, helping us channel
+                                resources to the right places
+                            </p>
+                            <h2>Jake </h2>
+                            <h3>Resturant Owner</h3>
+                        </div>
                     </div>
                     <div class="testimonial-item">
-                        <img src="img/testimonial-3.jpg" alt="Image">
-                        <p>
-                            Sed in lectus eu eros tincidunt cursus. Aliquam eleifend velit nisl. Sed et posuere urna, ut vestibulum massa. Integer quis magna
-                        </p>
-                        <h2>Client Name</h2>
-                        <h3>Profession</h3>
+                        <div class="testimonial-img">
+                         <!-- <img src="img/testimonial-3.jpg" alt="Image"> -->
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                I am particularly exicted because i can now outsource my tax filing to a reputatable comapny and focus on actual 
+                                running of my business.
+                            </p>
+                            <h2>Justin</h2>
+                            <h3>Business Owner</h3>
+                        </div>
                     </div>
-                    <div class="testimonial-item">
-                        <img src="img/testimonial-4.jpg" alt="Image">
-                        <p>
-                            Sed in lectus eu eros tincidunt cursus. Aliquam eleifend velit nisl. Sed et posuere urna, ut vestibulum massa. Integer quis magna
-                        </p>
-                        <h2>Client Name</h2>
-                        <h3>Profession</h3>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -424,64 +433,28 @@
         <!-- Team Start -->
         <div class="team">
             <div class="container">
-                <div class="section-header">
+                <div class="section-header text-center">
                     <p>Meet Our Advisors</p>
                     <h2>Our Professional Consulting Team</h2>
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
+                        <div class="team-item text-center">
                             <div class="team-img">
                                 <img src="img/team-1.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Donald John</h2>
+                                <h2>Chibundo Adaobi Agbaim </h2>
                                 <p>Founder & CEO</p>
                                 <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
-                                    <a href=""><i class="fab fa-instagram" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
+                                    <a href="https://www.linkedin.com/in/adaobi-chibundo-agbaim/?originalSubdomain=ca"><i class="fab fa-linkedin-in" style="color: #092A49; animation: pulse 2s infinite;" target="_blank"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Adam Phillips</h2>
-                                <p>Chef Executive</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
-                                    <a href=""><i class="fab fa-instagram" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Thomas Olsen</h2>
-                                <p>Chef Advisor</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
-                                    <a href=""><i class="fab fa-instagram" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
+                        <div class="team-item text-center">
                             <div class="team-img">
                                 <img src="img/team-4.jpg" alt="Team Image">
                             </div>
@@ -489,10 +462,7 @@
                                 <h2>James Alien</h2>
                                 <p>Advisor</p>
                                 <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
                                     <a href=""><i class="fab fa-linkedin-in" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
-                                    <a href=""><i class="fab fa-instagram" style="color: #092A49; animation: pulse 2s infinite;"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -544,25 +514,37 @@
                     <div class="col-md-7">
                         <div class="contact-form">
                             <div id="success"></div>
-                            <form name="sentMessage" id="contactForm" novalidate>
-                                <div class="control-group">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group">
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group">
-                                    <textarea class="form-control" name="message" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div>
-                                    <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                            <form id="contactForm" name="sentMessage" method="POST" action="send-email.php" novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input class="form-control" name="name" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" name="email" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" name="subject" id="subject" type="text" placeholder="Your Subject *" required="required" data-validation-required-message="Please enter a subject.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-lg-12 text-center">
+                                        <div id="successMessage" class="alert alert-success" style="display: none;"></div>
+                                        <div id="errorMessage" class="alert alert-danger" style="display: none;"></div>
+                                        <div class="g-recaptcha" data-sitekey="6Ld19FsrAAAAAE-_GzHzxwK00_vtTPDGkY3rCkZj"></div>
+                                        <div>
+                                            <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -625,7 +607,7 @@
                     ?>
                 </div>
                 <div class="text-center mt-4">
-                    <a href="blog.php" class="btn btn-primary">Read Blog</a>
+                    <a href="blog" class="btn btn-primary" style="background-color: #092A49">Read Blog</a>
                 </div>
             </div>
         </div>
@@ -648,12 +630,11 @@
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/counterup/counterup.min.js"></script>
         
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+        <!-- Add reCAPTCHA script -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+        <!-- Custom Contact Form JavaScript -->
+        <script src="js/contact-form.js"></script>
 
         <!-- Hero Slider Script -->
         <script>
@@ -764,19 +745,22 @@
         <!-- Initialize Owl Carousel -->
         <script>
             $(document).ready(function(){
-                $(".owl-carousel").owlCarousel({
-                    items: 1,
+                $('.blog-carousel').owlCarousel({
                     loop: true,
-                    margin: 0,
+                    margin: 30,
                     nav: true,
                     dots: true,
                     autoplay: true,
                     autoplayTimeout: 5000,
                     autoplayHoverPause: true,
-                    navText: [
-                        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-                        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-                    ]
+                    responsive:{
+                        0:{
+                            items: 1
+                        },
+                        768:{
+                            items: 2
+                        }
+                    }
                 });
             });
         </script>

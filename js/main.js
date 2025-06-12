@@ -72,9 +72,40 @@
         }
     });
     
-    
-    // Dropdown on mouse hover
+    // Mobile Menu
     $(document).ready(function () {
+        var $navbarCollapse = $('#navbarCollapse');
+        var $navbarToggler = $('.navbar-toggler');
+        var isMenuOpen = false;
+
+        $navbarToggler.on('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            if (isMenuOpen) {
+                $navbarCollapse.collapse('hide');
+                isMenuOpen = false;
+            } else {
+                $navbarCollapse.collapse('show');
+                isMenuOpen = true;
+            }
+        });
+
+        $navbarCollapse.on('show.bs.collapse', function() {
+            isMenuOpen = true;
+        });
+
+        $navbarCollapse.on('hide.bs.collapse', function() {
+            isMenuOpen = false;
+        });
+
+        // Close menu when clicking a nav link
+        $('.navbar-nav .nav-link').on('click', function() {
+            $navbarCollapse.collapse('hide');
+            isMenuOpen = false;
+        });
+
+        // Dropdown on mouse hover (desktop only)
         function toggleNavbarMethod() {
             if ($(window).width() > 992) {
                 $('.navbar .dropdown').on('mouseover', function () {

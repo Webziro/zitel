@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -81,26 +84,34 @@
                     <div class="col-md-7">
                         <div class="contact-form">
                             <div id="success"></div>
-                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                                <div class="control-group">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required="required" />
+                            <form id="contactForm" name="sentMessage" method="POST" action="send-email.php" novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email address" />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
                                     <p class="help-block text-danger"></p>
                                 </div>
-                                <div class="control-group">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="required" />
+                                <div class="form-group">
+                                    <div class="g-recaptcha" data-sitekey="6Ld19FsrAAAAAE-_GzHzxwK00_vtTPDGkY3rCkZj"></div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Your Message" required="required" data-validation-required-message="Please enter your message"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
-                                <div class="control-group">
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="required" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group">
-                                    <textarea class="form-control" name="message" id="message" placeholder="Message" required="required"></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="g-recaptcha" data-sitekey="6LfPVFkrAAAAAHf6iTL3hVR3okWuKL2HOfiDQtwD"></div>
                                 <div>
-                                    <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                    <button class="btn btn-custom btn-lg" type="submit" id="sendMessageButton">Send Message</button>
                                 </div>
                             </form>
                         </div>
@@ -147,58 +158,7 @@
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/counterup/counterup.min.js"></script>
         
-        <!-- EmailJS -->
-        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-        <script>
-            (function() {
-                emailjs.init("YOUR_PUBLIC_KEY"); // Add your EmailJS public key here
-            })();
-        </script>
-        
-        <!-- Contact Javascript File -->
-        <script src="mail/contact.js"></script>
-
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-
-        <script>
-        $(document).ready(function() {
-            // Check for URL parameters on page load
-            const urlParams = new URLSearchParams(window.location.search);
-            const error = urlParams.get('error');
-            const success = urlParams.get('success');
-            
-            if (success === '1') {
-                $('#successMessage').html('Your message has been sent. Thank you!');
-                $('#successMessage').show();
-            } else if (error) {
-                let errorMessage = '';
-                switch(error) {
-                    case 'method':
-                        errorMessage = 'Invalid request method. Please try again.';
-                        break;
-                    case 'missing':
-                        const fields = urlParams.get('fields').split(',');
-                        errorMessage = 'Please fill in all required fields: ' + fields.join(', ');
-                        break;
-                    case 'email':
-                        errorMessage = 'Please enter a valid email address.';
-                        break;
-                    case 'mail':
-                        errorMessage = 'Failed to send message. Please try again later.';
-                        break;
-                    default:
-                        errorMessage = 'An error occurred. Please try again.';
-                }
-                $('#errorMessage').html(errorMessage);
-                $('#errorMessage').show();
-            }
-            
-            // Clear success message when name field is focused
-            $("#name").focus(function() {
-                $('#successMessage').html('');
-            });
-        });
-        </script>
+        <!-- Custom Contact Form JavaScript -->
+        <script src="js/contact-form.js"></script>
     </body>
 </html>

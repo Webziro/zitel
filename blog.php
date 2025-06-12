@@ -95,7 +95,7 @@ $result = mysqli_stmt_get_result($stmt);
                                         echo htmlspecialchars(substr(strip_tags($row['content']), 0, 150)) . '...'; 
                                         ?>
                                     </p>
-                                    <a class="btn btn-primary" href="more.php?id=<?php echo $row['id']; ?>">Read More</a>
+                                    <a class="btn btn-primary"  style="background-color: #092A49" href="more.php?id=<?php echo $row['id']; ?>">Read More</a>
                                 </div>
                             </div>
                         </div>

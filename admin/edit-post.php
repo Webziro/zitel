@@ -113,7 +113,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             mysqli_stmt_bind_param($stmt, "ssssssi", $title, $content, $image_path, $category, $status, $publish_date, $id);
             
             if (mysqli_stmt_execute($stmt)) {
-                header("location: index.php");
+                header("location: index");
                 exit();
             } else {
                 echo "Something went wrong. Please try again later.";
@@ -160,7 +160,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <div class="container mt-4">
         <h2>Edit Post</h2>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"] . "?id=" . $id); ?>" method="post" enctype="multipart/form-data">
+        <form action="/admin/edit-post?id=<?php echo htmlspecialchars($id); ?>" method="post" enctype="multipart/form-data">
             <div class="mb-3">
                 <label for="title" class="form-label">Title</label>
                 <input type="text" name="title" class="form-control <?php echo (!empty($title_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $title; ?>">

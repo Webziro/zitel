@@ -391,7 +391,7 @@
                         <div class="testimonial-text">
                             <p>
                                 I was on the verge of upscalling my bussiness, hence needed a reputable organization to fill
-                                my taxes correctly, Zitel Finacials did a great job. I will galdly recommend them.
+                                my taxes correctly, Zitel Finacials did a great job. I will galdly recommend them to all.
                             </p>
                             <h2>Joy Miles</h2>
                             <h3>Business Owner</h3>

@@ -119,7 +119,7 @@ try {
 
     // Validate required fields
     if (empty($name) || empty($email) || empty($subject) || empty($message)) {
-        throw new Exception('Please fill in all required fields.');
+        throw new Exception('Please fill in all required fields, before proceeding!');
     }
 
     // Verify reCAPTCHA

@@ -36,7 +36,9 @@
        
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index" class="navbar-brand">ZITEL</a>
+                <a href="index" class="navbar-brand">
+                    <canvas id="logo-canvas" width="300" height="80" style=""></canvas>
+                </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -52,6 +54,23 @@
             </div>
         </div>
          <!-- Nav Bar End -->
+
+        <!-- Rive Animation Script -->
+        <script src="https://unpkg.com/@rive-app/canvas"></script>
+        <script>
+            const r = new rive.Rive({
+                src: "img/zitel.riv",
+                canvas: document.getElementById("logo-canvas"),
+                autoplay: true,
+                stateMachines: "State Machine 1", // Specify your state machine
+                onLoad: () => {
+                    console.log("Zitel logo animation loaded successfully");
+                },
+                onLoadError: (err) => {
+                    console.error("Failed to load Zitel logo animation:", err);
+                }
+            });
+        </script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
